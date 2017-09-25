@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente_backbround"
+    tools:context="com.example.lehiteixeira.banco_neon.View.Activity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lehi Lima Fonseca Teixeira"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:textSize="16sp"
+        android:id="@+id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lehilima@gmail.com"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/userimagecontainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+   >
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/circular_shape_home"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="100"
+        tools:layout_editor_absoluteY="78dp"
+        tools:layout_editor_absoluteX="117dp"
+        android:layout_centerHorizontal="true"
+        />
+        <ImageView
+            android:id="@+id/userimage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/eu"
+            android:adjustViewBounds="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnSendMoney"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/button_shape"
+        android:text="ENVIAR DINHEIRO"
+        android:layout_marginBottom="74dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/btntransferlog"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/button_shape"
+        android:text="Histórico de Envios"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp" />
+
+</RelativeLayout>

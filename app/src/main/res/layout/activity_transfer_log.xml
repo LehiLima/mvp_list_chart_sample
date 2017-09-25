@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lehiteixeira.banco_neon.View.Activity.TransferLogActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradiente_backbround"
+    >
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <android.support.v4.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_below="@+id/toolbar">
+
+        <include layout="@layout/activity_transfer_log_conteiner"/>
+
+</android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/loading_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="1dp"
+        android:clickable="true"
+        android:background="#66212121"
+
+        android:layout_below="@+id/toolbar"
+        >
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/accessibilityFeedbackType"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:progress="80"
+            android:progressDrawable="@drawable/circular_progress_view"
+
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <!--&lt;!&ndash;style action bar &ndash;&gt;-->
+        <!--<item name="android:actionBarStyle">@style/ThemeActionBar</item>-->
+        <!--<item name="android:homeAsUpIndicator">@drawable/ic_chevron_left_white_24dp</item>-->
+        <!--<item name="android:windowActionBarOverlay">true</item>-->
+        <!--<item name="actionBarStyle">@style/ThemeActionBar</item>-->
+        <!--<item name="windowActionBarOverlay">true</item>-->
+
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--<style name="ThemeActionBar"-->
+        <!--parent="Widget.AppCompat.Light.ActionBar.Solid">-->
+        <!--<item name="android:textColor">@android:color/white</item>-->
+        <!--<item name="android:background">@null</item>-->
+        <!--<item name="android:actionMenuTextColor">@android:color/white</item>-->
+        <!--<item name="actionMenuTextColor">@android:color/white</item>-->
+
+        <!--&lt;!&ndash; Support library compatibility &ndash;&gt;-->
+        <!--<item name="background">@null</item>-->
+    <!--</style>-->
+    <!--<style name="EditTextStyle" parent="Widget.AppCompat.EditText"/>-->
+
+
+
+    <!--<style name="ActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">-->
+        <!--<item name="android:textColor">@android:color/white</item>-->
+        <!--<item name="android:textSize">12sp</item>-->
+    <!--</style>-->
+
+    <!--<style name="ActionBarSubTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">-->
+        <!--<item name="android:textColor">@android:color/white</item>-->
+        <!--<item name="android:textSize">12sp</item>-->
+    <!--</style>-->
+    <style name="animationdialog">
+        <item name="@android:windowEnterAnimation">@anim/dialog_in</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_out</item>
+    </style>
+
+</resources>

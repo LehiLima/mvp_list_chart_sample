@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">neon_teste_Lehi</string>
+    <string name="transfer_log">HISTÓRICO DE ENVIOS</string>
+    <string name="send_money">ENVIAR DINHEIRO</string>
+    <string name="send_money_value">Valor a enviar:</string>
+    <string name="send_money_hint">R$0,00</string>
+    <string name="send">Enviar</string>
+    <string name="send_sucess">ENVIADO COM SUCESSO ! </string>
+    <string name="send_error">ERRO NO ENVIO ! </string>
+    <string name="connection_error">SEM CONEXÂO COM A INTERNET! </string>
+    <string name="warning_massage">O valor deve ser maior 0 ! </string>
+    <string name="connection_error_transfer_log">Sem Conexão ! Tente mais tarde !</string>
+
+</resources>
